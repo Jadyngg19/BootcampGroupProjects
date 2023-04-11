@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+}
+
+div.row-eventfilter{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+ fieldset{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background:rgb(232, 240, 254)
+ }
+
+div.test-slider{
+    width: 300px;
+    display: flex;
+}
+p.pricename{
+    display: flex;
+}
+div.events{
+    height:644px;
+    width:500px;
+    overflow:auto;
+    border:8px solid rgb(0, 0, 0);
+    padding:2%;
+    background:rgb(232, 240, 254);
+   
+}
+div.map.map{
+    
+    overflow:auto;
+    border:8px solid rgb(0, 0, 0);
+    padding:2%
+}
+main{
+    display: flex;
+    width:95vw;
+}
+a.brand-logo.center{
+    font-size: 50px;
+    color: black;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.event-name{
+    font-size: 23px;
+    line-height: 90%;
+    
+}
+img.event-image{
+    height: 111px;
+    width: 166px;
+}
